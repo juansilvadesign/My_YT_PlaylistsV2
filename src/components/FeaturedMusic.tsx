@@ -63,13 +63,16 @@ const FeaturedMusic: React.FC = () => {
         <div key={section.title} className="space-y-4">
           <div className="flex items-center justify-between px-6">
             <h2 className="text-xl font-bold">{section.title}</h2>
-            <div className="flex items-center gap-2">
-              <CarouselPrevious className="relative inset-0 translate-y-0 h-8 w-8 rounded-full bg-ytmusic-secondary text-ytmusic-text-primary border-none hover:bg-ytmusic-secondary/80" />
-              <CarouselNext className="relative inset-0 translate-y-0 h-8 w-8 rounded-full bg-ytmusic-secondary text-ytmusic-text-primary border-none hover:bg-ytmusic-secondary/80" />
-            </div>
           </div>
           <ScrollArea className="w-full">
             <Carousel className="w-full px-6">
+              <div className="flex items-center justify-between mb-4">
+                <div></div> {/* Empty div for spacing */}
+                <div className="flex items-center gap-2">
+                  <CarouselPrevious className="relative inset-0 translate-y-0 h-8 w-8 rounded-full bg-ytmusic-secondary text-ytmusic-text-primary border-none hover:bg-ytmusic-secondary/80" />
+                  <CarouselNext className="relative inset-0 translate-y-0 h-8 w-8 rounded-full bg-ytmusic-secondary text-ytmusic-text-primary border-none hover:bg-ytmusic-secondary/80" />
+                </div>
+              </div>
               <CarouselContent className="-ml-4">
                 {section.items.map((item, index) => (
                   <CarouselItem key={`${section.title}-${index}`} className="pl-4 md:basis-1/3 lg:basis-1/5">
