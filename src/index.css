@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +97,30 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-ytmusic-background text-ytmusic-text-primary;
+  }
+
+  .music-card {
+    @apply transition-all duration-200 hover:scale-105;
+  }
+
+  .music-card-image {
+    @apply rounded-md overflow-hidden aspect-square;
+  }
+
+  .player-progress {
+    @apply h-1 bg-ytmusic-secondary rounded-full cursor-pointer;
+  }
+
+  .player-progress-filled {
+    @apply h-full bg-ytmusic-primary rounded-full;
+  }
+
+  .sidebar-item {
+    @apply flex items-center gap-4 px-4 py-2 rounded-md transition-all duration-200 hover:bg-ytmusic-secondary;
+  }
+
+  .sidebar-item.active {
+    @apply bg-ytmusic-secondary text-ytmusic-primary;
   }
 }

@@ -1,13 +1,21 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import Layout from '@/components/Layout';
+import FeaturedMusic from '@/components/FeaturedMusic';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <Layout>
+      <div className="px-6 py-8">
+        <h1 className="text-3xl font-bold mb-6">Welcome to TuneTown</h1>
+        <p className="text-ytmusic-text-secondary max-w-2xl mb-8">
+          Your personal music streaming platform. Discover new music, create playlists, 
+          and enjoy your favorite tracks anytime, anywhere.
+        </p>
       </div>
-    </div>
+      
+      <FeaturedMusic />
+    </Layout>
   );
 };
 
