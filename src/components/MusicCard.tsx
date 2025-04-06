@@ -11,7 +11,7 @@ interface MusicCardProps {
 
 const MusicCard: React.FC<MusicCardProps> = ({ title, subtitle, imageUrl, className }) => {
   return (
-    <div className={cn('music-card w-full', className)}>
+    <div className={cn('music-card w-full cursor-pointer', className)}>
       <div className="music-card-image bg-ytmusic-secondary">
         {imageUrl ? (
           <img src={imageUrl} alt={title} className="w-full h-full object-cover" />
