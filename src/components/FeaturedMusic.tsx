@@ -1,4 +1,3 @@
-
 import React from 'react';
 import MusicCard from './MusicCard';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
@@ -66,16 +65,13 @@ const FeaturedMusic: React.FC = () => {
         <div key={section.title} className="space-y-2 md:space-y-4">
           <div className="flex items-center justify-between px-4 md:px-6">
             <h2 className="text-lg md:text-xl font-bold">{section.title}</h2>
+            <div className="flex items-center gap-2">
+              <CarouselPrevious className="relative inset-0 translate-y-0 h-7 w-7 md:h-8 md:w-8 rounded-full bg-ytmusic-secondary text-ytmusic-text-primary border-none hover:bg-ytmusic-secondary/80" />
+              <CarouselNext className="relative inset-0 translate-y-0 h-7 w-7 md:h-8 md:w-8 rounded-full bg-ytmusic-secondary text-ytmusic-text-primary border-none hover:bg-ytmusic-secondary/80" />
+            </div>
           </div>
           <ScrollArea className="w-full">
             <Carousel className="w-full px-4 md:px-6">
-              <div className="flex items-center justify-between mb-2 md:mb-4">
-                <div></div> {/* Empty div for spacing */}
-                <div className="flex items-center gap-2">
-                  <CarouselPrevious className="relative inset-0 translate-y-0 h-7 w-7 md:h-8 md:w-8 rounded-full bg-ytmusic-secondary text-ytmusic-text-primary border-none hover:bg-ytmusic-secondary/80" />
-                  <CarouselNext className="relative inset-0 translate-y-0 h-7 w-7 md:h-8 md:w-8 rounded-full bg-ytmusic-secondary text-ytmusic-text-primary border-none hover:bg-ytmusic-secondary/80" />
-                </div>
-              </div>
               <CarouselContent className="-ml-2 md:-ml-4">
                 {section.items.map((item, index) => (
                   <CarouselItem 
