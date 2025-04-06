@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { cn } from '@/lib/utils';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 interface MusicCardProps {
   title: string;
@@ -10,6 +11,8 @@ interface MusicCardProps {
 }
 
 const MusicCard: React.FC<MusicCardProps> = ({ title, subtitle, imageUrl, className }) => {
+  const isMobile = useIsMobile();
+  
   return (
     <div className={cn('music-card w-full cursor-pointer', className)}>
       <div className="music-card-image bg-ytmusic-secondary">
@@ -22,8 +25,8 @@ const MusicCard: React.FC<MusicCardProps> = ({ title, subtitle, imageUrl, classN
         )}
       </div>
       <div className="mt-2">
-        <h3 className="text-sm font-medium truncate">{title}</h3>
-        <p className="text-xs text-ytmusic-text-secondary truncate">{subtitle}</p>
+        <h3 className={`${isMobile ? 'text-xs' : 'text-sm'} font-medium truncate`}>{title}</h3>
+        <p className={`${isMobile ? 'text-[10px]' : 'text-xs'} text-ytmusic-text-secondary truncate`}>{subtitle}</p>
       </div>
     </div>
   );
