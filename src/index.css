@@ -98,4 +98,16 @@
   body {
     @apply bg-background text-foreground;
   }
+<<<<<<< HEAD
+
+  .sidebar-item {
+    @apply flex items-center gap-4 px-4 py-2 rounded-md transition-all duration-200 hover:bg-ytmusic-secondary;
+  }
+
+  .sidebar-item.active {
+    @apply bg-ytmusic-secondary text-ytmusic-primary;
+  }
 }
+=======
+}
+>>>>>>> 26a29594e46ce494dd1791d09a1d9de00242b3e8
