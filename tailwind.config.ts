@@ -61,6 +61,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				ytmusic: {
+					background: '#030303',
+          paper: '#121212',
+          primary: '#FF0000',
+					secondary: '#282828',
+					text: {
+						primary: '#FFFFFF',
+						secondary: '#AAAAAA',
+					}
 				}
 			},
 			borderRadius: {
