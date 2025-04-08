@@ -245,7 +245,7 @@ const FeaturedMusic: React.FC = () => {
         return (
           <div key={section.title} className="px-4 md:pl-14 lg:pl-24 pt-6 pb-6 lg:pt-14 lg:pb-14">
             <div className="inline-flex justify-start items-center gap-3">
-              <img className="w-12 h-12 md:w-14 md:h-14 xl:w-[64px] xl:h-[64px] relative rounded-[360px]" src="https://github-production-user-asset-6210df.s3.amazonaws.com/113949476/430739963-6818ef52-eea6-4614-95ac-c607a041e4ac.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T211150Z&X-Amz-Expires=300&X-Amz-Signature=0bcbb4abca8ad40fb4a98d09cfdc54fe7bf6dba26dfb7c60860af163de848eec&X-Amz-SignedHeaders=host" alt="Section thumbnail" />
+              <img className="w-12 h-12 md:w-14 md:h-14 xl:w-[64px] xl:h-[64px] relative rounded-[360px]" src="https://github.com/user-attachments/assets/75d86125-297c-44fa-999e-e69c7bbaec77" alt="Section thumbnail" />
               <div className="inline-flex flex-col justify-start items-start">
                 <div className="justify-center text-white text-xs md:text-sm lg:text-base font-regular font-['Inter'] leading-normal">Juan Pablo</div>
                 <div className="justify-center text-white text-xl md:text-2xl lg:text-4xl font-semibold font-['Inter']">{section.title}</div>

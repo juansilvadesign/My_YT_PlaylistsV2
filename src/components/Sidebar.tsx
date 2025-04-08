@@ -18,7 +18,7 @@ const Sidebar: React.FC<SidebarProps> = ({ className }) => {
     <div className={cn('flex flex-col h-full bg-[#030303] border-r border-ytmusic-secondary p-2', className)}>
       <div className="flex items-center gap-2 p-4">
         <img 
-          src="https://github-production-user-asset-6210df.s3.amazonaws.com/113949476/430741846-7c027354-3cd3-44a2-9cbb-a8b75d41b533.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250406%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250406T213803Z&X-Amz-Expires=300&X-Amz-Signature=32b51b1392feed14f5118793827c2f61a4ed4fce01c9ad1d51aa9080563d4bd3&X-Amz-SignedHeaders=host" 
+          src="https://github.com/user-attachments/assets/a35e438f-e772-4271-ab3a-c753eb467797" 
           alt="Logo" 
           className="h-6 w-6"
         />
