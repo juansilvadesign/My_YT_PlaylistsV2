@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/My_YT_PlaylistsV2/",
   server: {
     host: "::",
     port: 8080,

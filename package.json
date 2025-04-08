@@ -12,7 +12,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "deploy:dev": "gh-pages -d build --mode development"
+    "deploy:dev": "gh-pages -d dist --mode development"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
