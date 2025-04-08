@@ -8,10 +8,7 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ className }) => {
   const playlists = [
     { name: 'Vocaloids', url: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4' },
-    { name: 'Last Night In Soho', url: 'https://music.youtube.com/playlist?list=PLvRPFirdP2spQ5D2qRxWlpbmsU0k4OQl2' },
-    { name: 'Vocaloids', url: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4' },
-    { name: 'Vocaloids', url: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4' },
-    { name: 'Vocaloids', url: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4' },
+    { name: 'Last Night In Soho', url: 'https://music.youtube.com/playlist?list=PLvRPFirdP2spQ5D2qRxWlpbmsU0k4OQl2' }
   ];
 
   return (
