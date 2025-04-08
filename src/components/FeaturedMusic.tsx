@@ -73,101 +73,77 @@ const FeaturedMusic: React.FC = () => {
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKW7PJTqJvWsd2UG9Y1F5Jm'
         },
         {
-          title: 'Trending Beats',
-          subtitle: 'Curated for you',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Study Focus',
-          subtitle: 'Concentration mix',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Morning Coffee',
-          subtitle: 'Start your day',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Workout Energy',
-          subtitle: 'Push your limits',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Evening Wind Down',
-          subtitle: 'Relax and unwind',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Road Trip',
-          subtitle: 'Journey soundtrack',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Party Mix',
-          subtitle: 'Weekend celebration',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Indie Discoveries',
-          subtitle: 'Fresh talent',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Evening Wind Down',
-          subtitle: 'Relax and unwind',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Road Trip',
-          subtitle: 'Journey soundtrack',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Party Mix',
-          subtitle: 'Weekend celebration',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Indie Discoveries',
-          subtitle: 'Fresh talent',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Evening Wind Down',
-          subtitle: 'Relax and unwind',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Road Trip',
-          subtitle: 'Journey soundtrack',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Party Mix',
-          subtitle: 'Weekend celebration',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
         {
-          title: 'Indie Discoveries',
-          subtitle: 'Fresh talent',
-          imageUrl: '',
-          link: ''
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
         },
+        {
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
+        },
+        {
+          title: 'Coming Soon',
+          subtitle: '0 tracks • 0 minutes',
+        }
       ]
     },
     {
