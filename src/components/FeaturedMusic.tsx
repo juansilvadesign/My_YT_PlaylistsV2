@@ -26,201 +26,171 @@ const FeaturedMusic: React.FC = () => {
       items: [
         {
           title: 'Rock 🤘🏽',
-          subtitle: '17 tracks • 41 minutes',
+          subtitle: '537 tracks • 5+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/BAb5BOhFgYV9XoxyG0FUwDWDtMIO0tRiLSfUCDIn5c6swIn7I3Ikol32n3lQy5RXIz55rIeloj0a=s1200',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKYNc2nDhshhLGgBNdOycRj'
         },
         {
           title: '케이팝',
-          subtitle: 'Night Owls',
+          subtitle: '311 tracks • 5+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/GWjexwyYQaDyi0kayQ7HZQp08lp46C9NS3YPbieBrfNW_iGEc6m2KVcKUi6lnMtblrilWBxsJN0=s1200',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQL6zBmJuBPd8FHpWs0re3Ch'
         },
         {
-          title: 'Serenity',
-          subtitle: 'Peaceful Minds',
-          imageUrl: 'https://example.com/image3.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          title: '日本語',
+          subtitle: '281 tracks • 6+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/feuA5np64cHvIhXTPY8GbTCLItzhVZtN6fL43UrNyZAd-Qz21IWnaJkcMc7YYrCCJEDQFZl5rA=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQI4hkHqi744zg0cxlP94xgR'
         },
-        { title: 'Elevation',
-          subtitle: 'The Heights',
-          imageUrl: 'https://example.com/image4.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+        { title: 'English',
+          subtitle: '360 tracks • 5+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/BIw52yXMR7cEV9Eu87NgKOMonTPiJWteBg1hABtOtK8lGqUv2LiOsLkOOQCHVg9CjAvBiI5HxAs=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIoKWP1gSeSjmbY3rXt4M09'
         },
-        { title: 'Vibrant',
-          subtitle: 'Color Theory',
-          imageUrl: 'https://example.com/image5.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+        { title: 'Português',
+          subtitle: '339 tracks • 4+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/sOD5vbuvX-N36z8qb6cWll9zKT1MfcWAs-Nzv7WHRHze4ZGpEk5ctRMZq5885_QrddSoe4K5hPQR=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIenChNiaS6Wn6plI9-BH1M'
         },
-        { title: 'Echoes',
-          subtitle: 'Sound Waves',
-          imageUrl: 'https://example.com/image6.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+        { title: 'Old Ones 🧓🏽',
+          subtitle: '153 tracks • 6+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/duL8aDbMX8THCiRtJH_iS5_vbwRVmsMNjwpOEp3O6l3QFy5pYPhGpkwpeTJsm-YncCwDqnAuy_8=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKmRV6Qx2a0Ci8gn0tA3OHh'
         },
-        { title: 'Urban Jungle',
-          subtitle: 'City Beats',
-          imageUrl: 'https://example.com/image7.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
-        },
-        { title: 'Ocean Dreams',
-          subtitle: 'Deep Blue',
-          imageUrl: 'https://example.com/image8.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+        { title: 'Eletronic 🔥',
+          subtitle: '175 tracks • 5+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/-1c-Fqu15fxwR9fGu5Ij_ah6vrYDnnSzc5weqck-HLX9FeLsfsdSLV5zlU0tAnjyxDU8jp0iQs5n=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKl9pyizXncoMIxmc2z6R-P'
         },
       ]
     },
     {
-      title: 'Popular Playlists',
+      title: 'Refined Playlists',
       items: [
+        { title: "'Spin The Globe' Series 🌍",
+          subtitle: '17 tracks • 41 minutes',
+          imageUrl: 'https://yt3.googleusercontent.com/HHDoBAgIoBbNk9IyYe1LDSfWZAMuHFE3uE0Jiyi2hb9zsie4HYFEennolAeRs5lkRuZEOAz2kryR=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKW7PJTqJvWsd2UG9Y1F5Jm'
+        },
         {
           title: 'Trending Beats',
           subtitle: 'Curated for you',
-          imageUrl: 'https://example.com/image9.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Study Focus',
           subtitle: 'Concentration mix',
-          imageUrl: 'https://example.com/image10.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Morning Coffee',
           subtitle: 'Start your day',
-          imageUrl: 'https://example.com/image11.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Workout Energy',
           subtitle: 'Push your limits',
-          imageUrl: 'https://example.com/image12.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Evening Wind Down',
           subtitle: 'Relax and unwind',
-          imageUrl: 'https://example.com/image13.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Road Trip',
           subtitle: 'Journey soundtrack',
-          imageUrl: 'https://example.com/image14.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Party Mix',
           subtitle: 'Weekend celebration',
-          imageUrl: 'https://example.com/image15.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Indie Discoveries',
           subtitle: 'Fresh talent',
-          imageUrl: 'https://example.com/image16.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Evening Wind Down',
           subtitle: 'Relax and unwind',
-          imageUrl: 'https://example.com/image13.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Road Trip',
           subtitle: 'Journey soundtrack',
-          imageUrl: 'https://example.com/image14.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Party Mix',
           subtitle: 'Weekend celebration',
-          imageUrl: 'https://example.com/image15.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Indie Discoveries',
           subtitle: 'Fresh talent',
-          imageUrl: 'https://example.com/image16.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Evening Wind Down',
           subtitle: 'Relax and unwind',
-          imageUrl: 'https://example.com/image13.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Road Trip',
           subtitle: 'Journey soundtrack',
-          imageUrl: 'https://example.com/image14.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Party Mix',
           subtitle: 'Weekend celebration',
-          imageUrl: 'https://example.com/image15.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
         {
           title: 'Indie Discoveries',
           subtitle: 'Fresh talent',
-          imageUrl: 'https://example.com/image16.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          imageUrl: '',
+          link: ''
         },
       ]
     },
     {
-      title: 'Recently Played',
+      title: 'Recaps',
       items: [
         {
-          title: 'Your Top Mix',
-          subtitle: 'Based on your listening',
-          imageUrl: 'https://example.com/image17.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          title: '2024 Recap',
+          subtitle: '100 songs • 5+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/YEARLY_REVIEW_2024_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRYRAxqZ3kKseLuyEyeNej471Og7LuFez_0Hp'
         },
         {
-          title: 'Discover Weekly',
-          subtitle: 'New discoveries',
-          imageUrl: 'https://example.com/image18.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
+          title: '2023 Recap',
+          subtitle: '99 songs • 5+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/YEARLY_REVIEW_2023_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKYNc2nDhshhLGgBNdOycRj'
         },
         {
-          title: '2010s Throwback',
-          subtitle: 'Decade classics',
-          imageUrl: 'https://example.com/image19.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
-        },
-        {
-          title: 'Acoustic Sessions',
-          subtitle: 'Unplugged hits',
-          imageUrl: 'https://example.com/image20.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
-        },
-        {
-          title: 'Daily Drive',
-          subtitle: 'Music for your commute',
-          imageUrl: 'https://example.com/image21.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
-        },
-        {
-          title: 'Chill Vibes',
-          subtitle: 'Laid-back tunes',
-          imageUrl: 'https://example.com/image22.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
-        },
-        {
-          title: 'Mood Booster',
-          subtitle: 'Feel-good tracks',
-          imageUrl: 'https://example.com/image23.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
-        },
-        {
-          title: 'Jazz Essentials',
-          subtitle: 'Smooth classics',
-          imageUrl: 'https://example.com/image24.jpg',
-          link: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4'
-        },
+          title: '2022 Recap',
+          subtitle: '100 songs • 8+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/YEARLY_REVIEW_2022_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRYRSXYGO1gtF_A6JnoTdDiIkGLVEfqEfG9KQ'
+        }
       ]
     }
   ];
