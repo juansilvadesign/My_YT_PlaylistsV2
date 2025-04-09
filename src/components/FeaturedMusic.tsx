@@ -243,6 +243,12 @@ const FeaturedMusic: React.FC = () => {
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQILo0Ce79kP_hQ55MFSA9kh'
         },
         {
+          title: 'EA SPORTS FC Ultimate Soundtrack',
+          subtitle: '100 tracks • 6+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/D9cE8UNE-33A0UlEt3ht0159COCKdL_jVLLpl0AgpeGmVL8QYKkog8gktURHSFl-68svHJeWvw=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIUsetAx0xJar8jiUdvDjJP'
+        },
+        {
           title: 'EA SPORTS FC 25 Soundtrack',
           subtitle: '114 tracks • 5+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/KGuJyj6o5Yc9rPd5nUW7BmJZAhoDA_vRrobz83j866IFamt5bloE8QLpEpYxTTi7Iak3yjOb1wM=s1200',
@@ -267,6 +273,12 @@ const FeaturedMusic: React.FC = () => {
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQLmjuxEtngtaWFUqKWBDcgQ'
         },
         {
+          title: 'FIFA 19 Soundtrack',
+          subtitle: '44 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/jsFBwWGH88rSeLawoouhU25CIonTVhONQakUe-F397TP5LKpMuyoqWRQPuvNPKhS7qoc8iHoKhU=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQLTh_nd-5XrXSAJfa5yW8EU'
+        },
+        {
           title: 'FIFA 18 Soundtrack',
           subtitle: '45 tracks • 2+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/sMrkjqU2T9QXwCixkgLR5CkW6Lk5BFDfihpONFPW9K3Bxfj5OZBhQopITqKp_28p00HTq6DcKQ=s1200',
@@ -277,6 +289,12 @@ const FeaturedMusic: React.FC = () => {
           subtitle: '47 tracks • 3+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/m7nF_o-WHuXV1LSlVzTvth4crLwI5qx4RqP-c8fVs6U7uTcuXybvzLIh4aVUMDFX7IAK2sIiVw=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIlZTe5HGVBy_Q0oQP54Cdu'
+        },
+        {
+          title: 'FIFA 98 ~ 2003 Soundtrack',
+          subtitle: '33 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/Q6n4Vua3WP2fkJLqIbSCsDa5XJGb4CcV4KnmdvXMWavuyY6ZF8J0wG3bcUqtEk2unFnPkG7vNg=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQLNI96O3F2XSi9TgvjF9QNx'
         }
       ]
     },
