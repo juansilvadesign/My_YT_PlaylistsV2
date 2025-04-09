@@ -6,6 +6,8 @@ import { useIsMobile } from '@/hooks/use-mobile';
 import { useSearch } from '@/contexts/SearchContext';
 
 interface MusicSection {
+  imageUrl?: string;
+  subtitle: string;
   title: string;
   items: {
     title: string;
@@ -22,6 +24,8 @@ const FeaturedMusic: React.FC = () => {
   // Sample music data
   const musicSections: MusicSection[] = [
     {
+      imageUrl: 'https://i.imgur.com/eFL8rPj.jpeg',
+      subtitle: 'Juan Pablo',
       title: 'Top Picks',
       items: [
         {
@@ -77,6 +81,8 @@ const FeaturedMusic: React.FC = () => {
       ]
     },
     {
+      imageUrl: 'https://i.imgur.com/sdD9yas.jpeg',
+      subtitle: "Playlists that you can't find",
       title: 'Refined Playlists',
       items: [
         { title: "'Spin The Globe' Series 🌍",
@@ -153,6 +159,8 @@ const FeaturedMusic: React.FC = () => {
       ]
     },
     {
+      imageUrl: 'https://i.imgur.com/oP1bHaG.jpeg',
+      subtitle: 'Back in time',
       title: 'Recaps',
       items: [
         {
@@ -224,6 +232,8 @@ const FeaturedMusic: React.FC = () => {
       ]
     },
     {
+      imageUrl: 'https://i.imgur.com/el3FL2S.jpeg',
+      subtitle: "It's in the game",
       title: 'FIFA',
       items: [
         {
@@ -271,6 +281,8 @@ const FeaturedMusic: React.FC = () => {
       ]
     },
     {
+      imageUrl: 'https://i.imgur.com/ntvKBcY.jpeg',
+      subtitle: 'Challenge Everything',
       title: 'Need for Speed',
       items: [
         {
@@ -302,6 +314,8 @@ const FeaturedMusic: React.FC = () => {
       ]
     },
     {
+      imageUrl: 'https://i.imgur.com/0D2U4wK.jpeg',
+      subtitle: 'Around the world',
       title: 'Rest of World',
       items: [
         {
@@ -364,9 +378,9 @@ const FeaturedMusic: React.FC = () => {
         return (
           <div key={section.title} className="px-4 md:pl-14 lg:pl-24 pt-6 pb-6 lg:pt-14 lg:pb-14">
             <div className="inline-flex justify-start items-center gap-3">
-              <img className="w-12 h-12 md:w-14 md:h-14 xl:w-[64px] xl:h-[64px] relative rounded-[360px]" src="https://i.imgur.com/eFL8rPj.jpeg" alt="Section thumbnail" />
+              <img className="w-12 h-12 md:w-14 md:h-14 xl:w-[64px] xl:h-[64px] relative rounded-[360px]" src={section.imageUrl} alt="Section thumbnail" />
               <div className="inline-flex flex-col justify-start items-start">
-                <div className="justify-center text-white text-xs md:text-sm lg:text-base font-regular font-['Inter'] leading-normal">Juan Pablo</div>
+                <div className="justify-center text-white text-xs md:text-sm lg:text-base font-regular font-['Inter'] leading-normal">{section.subtitle}</div>
                 <div className="justify-center text-white text-xl md:text-2xl lg:text-4xl font-semibold font-['Inter']">{section.title}</div>
               </div>
             </div>
