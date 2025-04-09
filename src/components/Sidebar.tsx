@@ -7,8 +7,15 @@ interface SidebarProps {
 
 const Sidebar: React.FC<SidebarProps> = ({ className }) => {
   const playlists = [
+    { name: '🌎 Global Radio 📻', url: 'https://radio.garden/search' },
     { name: 'Vocaloids', url: 'https://music.youtube.com/playlist?list=PLB02wINShjkBKnLfufaEPnCupGO-SK6e4' },
-    { name: 'Last Night In Soho', url: 'https://music.youtube.com/playlist?list=PLvRPFirdP2spQ5D2qRxWlpbmsU0k4OQl2' }
+    { name: 'Anime theme songs (THE FIRST TAKE)', url: 'https://music.youtube.com/playlist?list=PLeLvSt3A0Ddlq1nbf88PpdPzEkWN5T_bb' },
+    { name: 'Arcane | Riot Games Music', url: 'https://music.youtube.com/playlist?list=PLJP5_qSxMbkI7B5W8uo_FLAtmSKwhxXLt' },
+    { name: 'Baby Driver Soundtrack', url: 'https://music.youtube.com/playlist?list=PLeR1Qor-VpOPz2WB3TITTis9a59sQX6eb' },
+    { name: 'Last Night In Soho', url: 'https://music.youtube.com/playlist?list=PLvRPFirdP2spQ5D2qRxWlpbmsU0k4OQl2' },
+    { name: 'The Outfit', url: 'https://music.youtube.com/playlist?list=PLnoIi4YKKKd9wzcZklpur7sYyYs_Lu01Z' },
+    { name: 'THIAGO FINCH PLAYLIST | Oficial © 💰', url: 'https://music.youtube.com/playlist?list=PLog_muKMxxrmdXjf-6CgkSYvJ9UoUnjR-' },
+    { name: 'ZippingMist Evil Inc 🤝 C.V', url: 'https://music.youtube.com/playlist?list=PLUQJDRNx1NB9P9_4IuY8KjdeVzdVrVmvl' }
   ];
 
   return (

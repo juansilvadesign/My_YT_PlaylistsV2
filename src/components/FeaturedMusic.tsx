@@ -62,6 +62,18 @@ const FeaturedMusic: React.FC = () => {
           imageUrl: 'https://yt3.googleusercontent.com/-1c-Fqu15fxwR9fGu5Ij_ah6vrYDnnSzc5weqck-HLX9FeLsfsdSLV5zlU0tAnjyxDU8jp0iQs5n=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKl9pyizXncoMIxmc2z6R-P'
         },
+        {
+          title: 'Orchestra 🎻',
+          subtitle: '136 tracks • 11+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/8ASVAuJ8QaQEfZ_LE7oxSTINJY9ErGIZAw14jPNtnYkKXHByk6vPVmAYMlNXAWPJQGyNixObYg=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIM9LGaNPPfa1rY7Gqu6SXK'
+        },
+        {
+          title: 'Shows 🔊',
+          subtitle: '119 tracks • 82+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/TPH-7wMQ6G-BJCB0j461Chg2aQqL2utX6VK1k-OSUzv7eA9fFXrCt24peTl_bua5zKGtkiWs6Q=s1200',
+          link: 'https://www.youtube.com/playlist?list=PLoVlwuf7VgQLxwtGJ4XQiJnxjW5s5RXp2'
+        }
       ]
     },
     {
@@ -73,76 +85,70 @@ const FeaturedMusic: React.FC = () => {
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKW7PJTqJvWsd2UG9Y1F5Jm'
         },
         {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
+          title: 'Fast and Furious',
+          subtitle: '42 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/gU_BKaNfO0pU04YTQYPfFMY3K5Pq3-JyVbKe4Nvz1CfqB15q5aHHUnK16PwTi4BU40rGnHRAVg=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIq-Bh0sWxvFwq-kuFVDauS'
         },
         {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
+          title: 'GTA San Andreas',
+          subtitle: '10 tracks • 10+ hours',
+          imageUrl: 'https://i9.ytimg.com/vi_locker/o_FWJZcBavY/locker.png?sqp=-oaymwEICKAEEKAEIAA&rs=AMzJL3lBtQAvT7Y4zGbexqyKpjjER3WyHg',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKZsz-GgkDd1n645zgVy8Ab'
         },
         {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
+          title: 'AESPA',
+          subtitle: '48 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/nZTvbvy5-8RoCGv1q2za_Haj8WEzXvesfaUXHN5FuNqfcJAzBRUm0e54O3Fe0xCiJp095ukr7tvS=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKsfENWPoux9BtdD07_X2LG'
         },
         {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
+          title: '20XX em uma música - Lucas Inutilismo',
+          subtitle: '10 tracks • 2+ hours',
+          imageUrl: 'https://i.ytimg.com/vi/PhfXQ58ywuI/hq720.jpg?sqp=-oaymwEXCNUGEOADIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3lqg-xx-Q_R8KGxKAYUrnd4BkZ4rw',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIIzZiZuPOXa9Addy7kNbqI'
         },
         {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
+          title: 'Tiny Desk Concert 🎙',
+          subtitle: '34 tracks • 10+ hours',
+          imageUrl: 'https://i.ytimg.com/vi/2Ws_5-hiqao/hq720.jpg?sqp=-oaymwEXCNUGEOADIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3mzeFCl2V3-vohq1Aiw_0lCSxWY5A',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIvlEr1dXZ6_C3e7ew3L6-n'
         },
         {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
+          title: 'The First Take 🎙',
+          subtitle: '53 tracks • 4+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/dDmZB5_DIrvJqJQ5-yPM_kBhEC1yCocEaLqv_9x7Gt_FDB3AMziQJhJhmKDXjl2ZSiuRGzt7MA=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIBaW7viAAasQl65axjC3AN'
         },
         {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
+          title: 'NCS Songs',
+          subtitle: '51 tracks • 7+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/QWXaGvYI_mvPQ3_tAZys8vq8xAwo3uNFYaDRAZ6taWHJ5TzqrzlzeUoiqTyFFbci9p5N6aXRkg=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQJnNEff0qZBrMcHaSxZh1p_'
         },
         {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
+          title: 'Summer Eletrohits ⛱️',
+          subtitle: '27 tracks • 1+ hour',
+          imageUrl: 'https://yt3.googleusercontent.com/dD-Fcg4GuRdDa-vnOVLZl8FtwXgVBhRmMAwOusS2QBWxZbuc8qgj69Q8PQqJWkMz7giH9NZA0FI=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQL98EcL3M-jghkqqVd7jGfU'
         },
         {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
+          title: 'Lo-Fi 😌',
+          subtitle: '4 tracks • 22 hours',
+          imageUrl: 'https://i.ytimg.com/vi/ZhstyJSNKME/hqdefault.jpg?sqp=-oaymwEWCMACELQBIAQqCghQEJADGFogjgJIWg&rs=AMzJL3nOCbB5TH5gxpWUBT_cav6gfQ-C7Q',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQJiKOlgFJMmJXrDmL84Nr2S'
         },
         {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
+          title: 'Bathroom',
+          subtitle: '13 tracks • 5+ hours',
+          imageUrl: 'https://i.ytimg.com/vi/zn67tAr1T9Y/hq720.jpg?sqp=-oaymwEXCNUGEOADIAQqCwjVARCqCBh4INgESFo&rs=AMzJL3m60qatM8sBWqDJzNSYVDmkjahyZg',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQJMaBF9RGmqupjAwZgkm-FX'
         },
         {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
-        },
-        {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
-        },
-        {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
-        },
-        {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
-        },
-        {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
-        },
-        {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
-        },
-        {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
-        },
-        {
-          title: 'Coming Soon',
-          subtitle: '0 tracks • 0 minutes',
+          title: 'Arraiá',
+          subtitle: '15 tracks • 45 minutes',
+          imageUrl: 'https://yt3.googleusercontent.com/QlpNIK7beCqffcs4OnNnmx_nn2bE2JdQ7wnmD__1DHhER6yXDQteYBi3OQMqug2XxS_wtxcL9Ms=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQLt7gH0k_BGHgh_fy4-AP3M'
         }
       ]
     },
@@ -150,10 +156,34 @@ const FeaturedMusic: React.FC = () => {
       title: 'Recaps',
       items: [
         {
+          title: "December-February Recap '25",
+          subtitle: '50 songs • 2+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/WINTER_4_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRSRcFV-LLyw0bEznqDYgrLX5Rdpz6RcIPDj-'
+        },
+        {
           title: '2024 Recap',
           subtitle: '100 songs • 5+ hours',
           imageUrl: 'https://www.gstatic.com/music/listening_review/YEARLY_REVIEW_2024_544x544.png',
           link: 'https://music.youtube.com/playlist?list=LRYRAxqZ3kKseLuyEyeNej471Og7LuFez_0Hp'
+        },
+        {
+          title: "September-November Recap '24",
+          subtitle: '50 songs • 2+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/FALL_3_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRSRIzZhuYr_nofX71CGoiN9oX0QzyG9R9iy8'
+        },
+        {
+          title: "June-August Recap '24",
+          subtitle: '50 songs • 3+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/SUMMER_3_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRSR1vfHf7-a0F1SiiaalgNwy0093_vIURgli'
+        },
+        {
+          title: "December-February Recap '24",
+          subtitle: '50 songs • 2+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/WINTER_2_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRSRXmPoaqi3-9BowQI3aLIHCEJpTvG_sH3Yw'
         },
         {
           title: '2023 Recap',
@@ -162,10 +192,153 @@ const FeaturedMusic: React.FC = () => {
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKYNc2nDhshhLGgBNdOycRj'
         },
         {
+          title: "Spring Recap '23",
+          subtitle: '49 songs • 2+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/SPRING_2023_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRSRL8_qDa5Qk6-76P98Jxwog67Bz-KcVfwCH'
+        },
+        {
+          title: "Winter Recap '23",
+          subtitle: '50 songs • 3+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/WINTER_2023_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRSRBgdhCeqPqfDlJY9ITqan1hT2qwAj5d_-i'
+        },
+        {
+          title: "Fall Recap '23",
+          subtitle: '49 songs • 2+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/FALL_2023_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRSRUsc3kwhjzQWUjPjfunqnFCKyaldVrEPOv'
+        },
+        {
+          title: "Summer Recap '23",
+          subtitle: '50 songs • 2+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/SUMMER_2023_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRSRZ58OjWO42aVGEY53uTdNFSa52vL7GbS7A'
+        },
+        {
           title: '2022 Recap',
           subtitle: '100 songs • 8+ hours',
           imageUrl: 'https://www.gstatic.com/music/listening_review/YEARLY_REVIEW_2022_544x544.png',
           link: 'https://music.youtube.com/playlist?list=LRYRSXYGO1gtF_A6JnoTdDiIkGLVEfqEfG9KQ'
+        }
+      ]
+    },
+    {
+      title: 'FIFA',
+      items: [
+        {
+          title: 'My Ultimate FIFA Playlist',
+          subtitle: '49 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/KL0CdTlRrLCeMZDrgrs4M4HtUcy7tEVPO7voHdypW8FtVs7JfzbRVPjxZObro3ysc-4fsmCFGKRP=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQILo0Ce79kP_hQ55MFSA9kh'
+        },
+        {
+          title: 'EA SPORTS FC 25 Soundtrack',
+          subtitle: '114 tracks • 5+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/KGuJyj6o5Yc9rPd5nUW7BmJZAhoDA_vRrobz83j866IFamt5bloE8QLpEpYxTTi7Iak3yjOb1wM=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQICbSuj7LOk28-6iAzI4cRJ'
+        },
+        {
+          title: 'EA SPORTS FC 24 Soundtrack',
+          subtitle: '110 tracks • 5+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/D0d_fk8Qf8mpXafsQVaecC_KcMBQexYHTF8mZfnx_oZDX3V4AEH7DHRyJj0d_3DXiF55OrVJL31o=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKsjFmZKVqPPr5sPP24NIuy'
+        },
+        {
+          title: 'FIFA 23 OFFICIAL SOUNDTRACK',
+          subtitle: '48 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/G_q5wkOKhjCJLBQ4UHCdx1ZOWT_5g_0gZ-8ZZGNXkc40vkLhQaJ7r9R5PwtpCjboQoYtoEUQXw=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQItYyHFz1RgNVckgwsodZRu'
+        },
+        {
+          title: 'FIFA 22 Soundtrack',
+          subtitle: '53 tracks • 3+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/-DEx3nYGUfBQKMpgCDzYap3-IZBNaT4n1feTBvTlzK6zyAAhKiAY64eauMZKt_CkqDXMQwYO4tY=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQLmjuxEtngtaWFUqKWBDcgQ'
+        },
+        {
+          title: 'FIFA 18 Soundtrack',
+          subtitle: '45 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/sMrkjqU2T9QXwCixkgLR5CkW6Lk5BFDfihpONFPW9K3Bxfj5OZBhQopITqKp_28p00HTq6DcKQ=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQITjTHRhQUMz_zsyI9aeRQE'
+        },
+        {
+          title: 'FIFA 13 Soundtrack',
+          subtitle: '47 tracks • 3+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/m7nF_o-WHuXV1LSlVzTvth4crLwI5qx4RqP-c8fVs6U7uTcuXybvzLIh4aVUMDFX7IAK2sIiVw=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIlZTe5HGVBy_Q0oQP54Cdu'
+        }
+      ]
+    },
+    {
+      title: 'Need for Speed',
+      items: [
+        {
+          title: 'Need for Speed - Best Soundtracks 🏎',
+          subtitle: '42 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/3mXo9ZRbbjAU1qCprSDBT8z8HDeFzwDaymjBNNYa39JjhriUh2cgfGYIWGe-pwlJNnZcJM3-mqU=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQL0Qey1VEG9VxRc57Kjx-DJ'
+        },
+        {
+          title: 'NFS Most Wanted 2005',
+          subtitle: 'Comming Soon'
+        },
+        {
+          title: 'NFS Underground 2',
+          subtitle: 'Comming Soon'
+        },
+        {
+          title: 'NFS Heat',
+          subtitle: 'Comming Soon'
+        },
+        {
+          title: 'NFS Carbon',
+          subtitle: 'Comming Soon'
+        },
+        {
+          title: 'NFS Underground',
+          subtitle: 'Comming Soon'
+        }
+      ]
+    },
+    {
+      title: 'Rest of World',
+      items: [
+        {
+          title: 'Français',
+          subtitle: '42 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/_zn-uUhCZ0955yGpLoeSy2AQvKKf6UQaX8dHp0rOQqnp750HF9KuaON2qPZL388XjTyhQKA_RqQ=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKrwI8bs7fh2Rla_eTVvAYx'
+        },
+        {
+          title: 'Español',
+          subtitle: '49 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/5iTex7mpDJARRISAnVZSi_D4CipOqGYb8R158sKHXe-j2YVhk8y_KXSuTDIfFWDhTPbEDmXcGw=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQI3XA-AED1t56Z4zzBnrRk7'
+        },
+        {
+          title: 'русский',
+          subtitle: '61 tracks • 3+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/aq_z2PP22FeIVaTs849Oiq6H-4HJoMR-11RKyqnGvAZToGVphMpxOpNfodR1PeTQZtKImXeUtjo=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKONbkyFpUuyVMA54I50-MQ'
+        },
+        {
+          title: '中國',
+          subtitle: '24 tracks • 1+ hour',
+          imageUrl: 'https://yt3.googleusercontent.com/JJ1VKh7otOqbUUHcg2BV6QsfZRt-V1eqef0lm1Zgxk1HvoTt8RTASVjdS9pMlJcLKSo0wBuaLw=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQJZATmoNyHhrJurvZJqglsU'
+        },
+        {
+          title: 'عربي',
+          subtitle: '12 tracks • 47 minutes',
+          imageUrl: 'https://yt3.googleusercontent.com/d85VVnCe0lnb_kynlLZUgqM-mlhBfmunAVtavhteFlE2EDubr74R2KkefcbyZD_R31cmpLBlNoCK=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQJGD72otNyZqlIPhrF4d-_6'
+        },
+        {
+          title: 'Deutsch',
+          subtitle: '4 tracks • 14 minutes',
+          imageUrl: 'https://yt3.googleusercontent.com/j69YnJR7afz-9uWg4UMzkOVLa9YgShL4NA7JNwyDCdG8gXVThxJwvjg_oy8HRIbB3-nxuYwWB6Rs=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIRvCugSNZ3ASx-Pf34B5Vi'
         }
       ]
     }
