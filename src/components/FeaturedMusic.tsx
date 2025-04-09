@@ -81,7 +81,7 @@ const FeaturedMusic: React.FC = () => {
       ]
     },
     {
-      imageUrl: 'https://i.imgur.com/sdD9yas.jpeg',
+      imageUrl: 'https://music.youtube.com/img/favicon_96.png', /*https://i.imgur.com/sdD9yas.jpeg*/
       subtitle: "Playlists that you can't find",
       title: 'Refined Playlists',
       items: [
