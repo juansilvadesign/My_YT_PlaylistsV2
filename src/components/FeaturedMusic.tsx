@@ -286,7 +286,7 @@ const FeaturedMusic: React.FC = () => {
       title: 'Need for Speed',
       items: [
         {
-          title: 'Need for Speed - Best Soundtracks 🏎',
+          title: 'NFS - Best Soundtracks 🏎',
           subtitle: '42 tracks • 2+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/3mXo9ZRbbjAU1qCprSDBT8z8HDeFzwDaymjBNNYa39JjhriUh2cgfGYIWGe-pwlJNnZcJM3-mqU=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQL0Qey1VEG9VxRc57Kjx-DJ'
