@@ -155,6 +155,12 @@ const FeaturedMusic: React.FC = () => {
           subtitle: '15 tracks • 45 minutes',
           imageUrl: 'https://yt3.googleusercontent.com/QlpNIK7beCqffcs4OnNnmx_nn2bE2JdQ7wnmD__1DHhER6yXDQteYBi3OQMqug2XxS_wtxcL9Ms=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQLt7gH0k_BGHgh_fy4-AP3M'
+        },
+        {
+          title: 'Collision Course',
+          subtitle: '6 tracks • 21 minutes',
+          imageUrl: 'https://yt3.googleusercontent.com/EP7nAVlB6vYh77U4fVnRAYjO2S4CQ-rbGuMHX79q54ijvEn3h0epb-mW1VlSJb09AclrTH7LLCb8=s1200',
+          link: 'https://music.youtube.com/browse/VLPLoVlwuf7VgQLHMZ9UT1BIX8nCgRXEfSry'
         }
       ]
     },
