@@ -37,7 +37,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: '케이팝',
           subtitle: '311 tracks • 5+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/GWjexwyYQaDyi0kayQ7HZQp08lp46C9NS3YPbieBrfNW_iGEc6m2KVcKUi6lnMtblrilWBxsJN0=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/hJSq2FpHElna3QPN4is_-plPgJJ_KJBb4d-Jr3vdQ-PZ7Y1x4ovkZONidUzQiIflYiGtGnxELvk=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQL6zBmJuBPd8FHpWs0re3Ch'
         },
         {
