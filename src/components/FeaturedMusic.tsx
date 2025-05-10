@@ -317,11 +317,15 @@ const FeaturedMusic: React.FC = () => {
         },
         {
           title: 'NFS Most Wanted 2005',
-          subtitle: 'Comming Soon'
+          subtitle: '29 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/_n2_r41SuQ5Wpl_kUGHjcmSoOLj6f5Ycmz12y8uD6fv3-MKwMXvuO4_f44Qo1ibKp31kyO6fSp0=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQILs6Bg4BuedIKV4UnCPIqX'
         },
         {
           title: 'NFS Underground 2',
-          subtitle: 'Comming Soon'
+          subtitle: '27 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/Uj0m5Ds2ZmhIrQIm1AAoDM1IDfq8-IZ4bpbMjOocgMzyOpXM7UyqOnf72Qin_l21YGgT_IwlbMY=s1200',
+          link: 'https://music.youtube.com/browse/VLPLoVlwuf7VgQKViaOJK9eesbbuVJvw24w_'
         },
         {
           title: 'NFS Heat',
