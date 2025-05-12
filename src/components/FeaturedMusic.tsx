@@ -257,7 +257,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: 'EA SPORTS FC 25 Soundtrack',
           subtitle: '114 tracks • 5+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/KGuJyj6o5Yc9rPd5nUW7BmJZAhoDA_vRrobz83j866IFamt5bloE8QLpEpYxTTi7Iak3yjOb1wM=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/oVr3A3aXGWf9fdzPCvViOVrExHm-OcQA408vrjRyLH5UB4d9rbQmLut7kSbBOgf55IjLTZdwVzvR=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQICbSuj7LOk28-6iAzI4cRJ'
         },
         {
@@ -329,15 +329,21 @@ const FeaturedMusic: React.FC = () => {
         },
         {
           title: 'NFS Heat',
-          subtitle: 'Comming Soon'
+          subtitle: 'n tracks • x+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/tGJfS1nM9s67LDYpIbRgZwuxxSEHnErgobYPAClYu9fmOSJuwSv7DpHY00LPhI-hIrcROUw09sc=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKsTi3n7k0j_wq7lnscWYH8'
         },
         {
           title: 'NFS Carbon',
-          subtitle: 'Comming Soon'
+          subtitle: '33 tracks • 2+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/e7xS4kiYBOWYW422lU5vectnbZ9d2Nb8nB1NrCTTX9hPid_DIL6SXiLoKul19SF_qmePyfsYmA=s1200',
+          link: 'https://music.youtube.com/browse/VLPLoVlwuf7VgQIcHJQCRgH8na4RV31lXCra'
         },
         {
           title: 'NFS Underground',
-          subtitle: 'Comming Soon'
+          subtitle: '26 tracks • 1+ hour',
+          imageUrl: 'https://yt3.googleusercontent.com/eecwEN19O-HyTekmhdrHUgu9TNru8DkgVG4Ol5EswLrOXoHR-7n-RbeSAgesXIB-hSkKCK3_JPE=s1200',
+          link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQJd9U0MBjLulOEZNg2oE31c'
         }
       ]
     },
@@ -349,7 +355,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: 'Français',
           subtitle: '42 tracks • 2+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/_zn-uUhCZ0955yGpLoeSy2AQvKKf6UQaX8dHp0rOQqnp750HF9KuaON2qPZL388XjTyhQKA_RqQ=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/b0YW0wfEpfXEHX-REaLik99AmuR7hHEEHYOtjIo7d3xbmyYZL417NbWHnymx315gFtIpBbPpaA=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKrwI8bs7fh2Rla_eTVvAYx'
         },
         {
