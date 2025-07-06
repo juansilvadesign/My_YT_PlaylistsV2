@@ -23,6 +23,7 @@ const FeaturedMusic: React.FC = () => {
   
   // Sample music data
   const musicSections: MusicSection[] = [
+    // Top Picks
     {
       imageUrl: 'https://i.imgur.com/eFL8rPj.jpeg',
       subtitle: 'Juan Pablo',
@@ -30,14 +31,14 @@ const FeaturedMusic: React.FC = () => {
       items: [
         {
           title: 'Rock 🤘🏽',
-          subtitle: '537 tracks • 5+ hours',
+          subtitle: '567 tracks • 5+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/BAb5BOhFgYV9XoxyG0FUwDWDtMIO0tRiLSfUCDIn5c6swIn7I3Ikol32n3lQy5RXIz55rIeloj0a=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKYNc2nDhshhLGgBNdOycRj'
         },
         {
           title: '케이팝',
-          subtitle: '311 tracks • 5+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/hJSq2FpHElna3QPN4is_-plPgJJ_KJBb4d-Jr3vdQ-PZ7Y1x4ovkZONidUzQiIflYiGtGnxELvk=s1200',
+          subtitle: '312 tracks • 5+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/Zvb4jS3XB9bpvX0hGXGFMTjx0Ast7yrg0kCqY2syCDmNNb3JLAEQnEhvL9skK2HmMkL2QVxdi_o=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQL6zBmJuBPd8FHpWs0re3Ch'
         },
         {
@@ -80,6 +81,7 @@ const FeaturedMusic: React.FC = () => {
         }
       ]
     },
+    // Refined Playlists
     {
       imageUrl: 'https://music.youtube.com/img/favicon_96.png', /*https://i.imgur.com/sdD9yas.jpeg*/
       subtitle: "Playlists that you can't find",
@@ -164,6 +166,7 @@ const FeaturedMusic: React.FC = () => {
         }
       ]
     },
+    // Recaps
     {
       imageUrl: 'https://i.imgur.com/oP1bHaG.jpeg',
       subtitle: 'Back in time',
@@ -237,6 +240,7 @@ const FeaturedMusic: React.FC = () => {
         }
       ]
     },
+    // FIFA
     {
       imageUrl: 'https://i.imgur.com/el3FL2S.jpeg',
       subtitle: "It's in the game",
@@ -244,8 +248,8 @@ const FeaturedMusic: React.FC = () => {
       items: [
         {
           title: 'My Ultimate FIFA Playlist',
-          subtitle: '49 tracks • 2+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/KL0CdTlRrLCeMZDrgrs4M4HtUcy7tEVPO7voHdypW8FtVs7JfzbRVPjxZObro3ysc-4fsmCFGKRP=s1200',
+          subtitle: '93 tracks • 5+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/nHKhevspw_qVczxA3ijdinO6EWvntrmTDM-Vz6HpARfRwXDU8HtmpYKnWZUbLS-AditjIXOazcw=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQILo0Ce79kP_hQ55MFSA9kh'
         },
         {
@@ -281,7 +285,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: 'FIFA 19 Soundtrack',
           subtitle: '44 tracks • 2+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/jsFBwWGH88rSeLawoouhU25CIonTVhONQakUe-F397TP5LKpMuyoqWRQPuvNPKhS7qoc8iHoKhU=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/quN1UJGZ0JSvUgA_EUOHKe-Agq63NxE66_sFc-2IriK7L3E_UWK25po-wXzmOW5qMKocdCQSzAuX=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQLTh_nd-5XrXSAJfa5yW8EU'
         },
         {
@@ -304,6 +308,7 @@ const FeaturedMusic: React.FC = () => {
         }
       ]
     },
+    // Need for Speed
     {
       imageUrl: 'https://i.imgur.com/ntvKBcY.jpeg',
       subtitle: 'Challenge Everything',
@@ -347,6 +352,7 @@ const FeaturedMusic: React.FC = () => {
         }
       ]
     },
+    // Rest of World
     {
       imageUrl: 'https://i.imgur.com/0D2U4wK.jpeg',
       subtitle: 'Around the world',
