@@ -1,73 +1,79 @@
-# Welcome to your Lovable project
+# MyYTPlaylists - All Your Playlists in One Place 🎶
 
-## Project info
+Welcome to **MyYTPlaylists**, a personal web project where all of my curated YouTube Music playlists are beautifully organized in a single, elegant, and responsive page. Whether you're into K-Pop, FIFA soundtracks, orchestral masterpieces, or nostalgic NFS hits, this site lets you explore it all in one click.
 
-**URL**: https://lovable.dev/projects/5846a50f-9bc5-4d14-b7e6-8c754a2329bd
+You can access the [project's live website here](https://juanpablodesigner.github.io/My_YT_PlaylistsV2/).
 
-## How can I edit this code?
+![Project's Cover](https://i.imgur.com/Kj7ZZCq.png)
 
-There are several ways of editing your application.
+> MyYTPlaylists showcases thumbnail covers, titles, and durations for each playlist — all grouped by theme.
 
-**Use Lovable**
+---
+![YouTube Music](https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Perplexity](https://img.shields.io/badge/perplexity-000000?style=for-the-badge&logo=perplexity&logoColor=088F8F) ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white) ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5846a50f-9bc5-4d14-b7e6-8c754a2329bd) and start prompting.
+### Key sections include:
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🎵 **Top Picks** – My favorite genre mixes.
+- 🌍 **Refined Playlists** – Rare and niche selections.
+- 🔁 **Recaps** – Yearly and seasonal summaries.
+- 🎮 **FIFA / NFS Soundtracks** – For the gaming nostalgia.
+- 🌐 **Rest of the World** – Language- and culture-based playlists.
 
-**Use your preferred IDE**
+### This project is built with:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Vite
+* TypeScript
+* React
+* shadcn-ui
+* Tailwind CSS
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+## 🧩 Contributing by Adding Playlists
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Want to fork this project or contribute your own playlists? Here's how:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. Clone the repo
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+git clone https://github.com/yourusername/featured-music
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+2. Open the `FeaturedMusic.tsx` file.
+3. Add a new object to the `musicSections[]` array with this format:
+
+```ts
+{
+  imageUrl: 'https://link-to-section-thumbnail',
+  subtitle: 'My Label',
+  title: 'New Section Title',
+  items: [
+    {
+      title: 'Playlist Title',
+      subtitle: 'X tracks • X hours',
+      imageUrl: 'https://link-to-yt-music-playlist-thumbnail',
+      link: 'https://music.youtube.com/playlist?...'
+    },
+    // Add more playlists here
+  ]
+}
+```
+
+4. Save and run the app:
+
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🙌 Special Thanks
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Made with 💜 by Juan Pablo — for everyone who ever asked: "what’s that playlist you were playing again?"
 
-**Use GitHub Codespaces**
+## 📄 MIT License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is open-source and free to use for personal customization.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+> “Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.” — Plato
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5846a50f-9bc5-4d14-b7e6-8c754a2329bd) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
