@@ -1,4 +1,4 @@
-# My_YT_Playlists - All Your Playlists in One Place 🎶
+# My_YT_Playlists - All my Playlists in One Place 🎶
 
 Welcome to **My_YT_Playlists**, a personal web project where all of my curated YouTube Music playlists are beautifully organized in a single, elegant, and responsive page. Whether you're into K-Pop, FIFA soundtracks, orchestral masterpieces, or nostalgic NFS hits, this site lets you explore it all in one click.
 
