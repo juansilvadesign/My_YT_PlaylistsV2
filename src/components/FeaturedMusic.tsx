@@ -432,7 +432,7 @@ const FeaturedMusic: React.FC = () => {
                     opts={{
                       align: "start",
                       containScroll: "trimSnaps",
-                      dragFree: false,
+                      dragFree: true,
                       skipSnaps: false
                     }}
                   >
