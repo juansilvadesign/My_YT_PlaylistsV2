@@ -15,7 +15,8 @@ const Sidebar: React.FC<SidebarProps> = ({ className }) => {
     { name: 'Last Night In Soho', url: 'https://music.youtube.com/playlist?list=PLvRPFirdP2spQ5D2qRxWlpbmsU0k4OQl2' },
     { name: 'The Outfit', url: 'https://music.youtube.com/playlist?list=PLnoIi4YKKKd9wzcZklpur7sYyYs_Lu01Z' },
     { name: 'THIAGO FINCH PLAYLIST | Oficial © 💰', url: 'https://music.youtube.com/playlist?list=PLog_muKMxxrmdXjf-6CgkSYvJ9UoUnjR-' },
-    { name: 'ZippingMist Evil Inc 🤝 C.V', url: 'https://music.youtube.com/playlist?list=PLUQJDRNx1NB9P9_4IuY8KjdeVzdVrVmvl' }
+    { name: 'ZippingMist Evil Inc 🤝 C.V', url: 'https://music.youtube.com/playlist?list=PLUQJDRNx1NB9P9_4IuY8KjdeVzdVrVmvl' },
+    { name: '🚩 A Viagem', url: 'https://music.youtube.com/playlist?list=PLUQJDRNx1NB_ID2sul04n-ZuLa0s03afk' }
   ];
 
   return (
