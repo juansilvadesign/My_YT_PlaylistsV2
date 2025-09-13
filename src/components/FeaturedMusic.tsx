@@ -49,7 +49,7 @@ const FeaturedMusic: React.FC = () => {
         },
         { title: 'English',
           subtitle: '360 tracks • 5+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/BIw52yXMR7cEV9Eu87NgKOMonTPiJWteBg1hABtOtK8lGqUv2LiOsLkOOQCHVg9CjAvBiI5HxAs=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/zy9PUIyAd0TA0HUA1GNWjsGr9--m534Nm-VFuHA5vG_Zhnv3WoOdluFyl0qz3ze3QHsf8TOlzQ=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIoKWP1gSeSjmbY3rXt4M09'
         },
         { title: 'Português',
@@ -76,7 +76,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: 'Shows 🔊',
           subtitle: '119 tracks • 82+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/TPH-7wMQ6G-BJCB0j461Chg2aQqL2utX6VK1k-OSUzv7eA9fFXrCt24peTl_bua5zKGtkiWs6Q=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/xZE0gW72ZDT87N7CZRCLaKYR2o-tEo8il49uchx81C9tyoA-vOsxdT_nTB41Emvi641uChuc7A=s1200',
           link: 'https://www.youtube.com/playlist?list=PLoVlwuf7VgQLxwtGJ4XQiJnxjW5s5RXp2'
         }
       ]
@@ -173,6 +173,18 @@ const FeaturedMusic: React.FC = () => {
       title: 'Recaps',
       items: [
         {
+          title: "June-August Recap '25",
+          subtitle: '50 songs • 3+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/SUMMER_4_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRSRVuc2a-bIAu6zET3ChDmo3uO46kiBKrD4p'
+        },
+        {
+          title: "March-May Recap '25",
+          subtitle: '50 songs • 2+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/SPRING_4_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRSRFFIWlTFS-vO9og4_Xd6mWV0lendMm3P0e'
+        },
+        {
           title: "December-February Recap '25",
           subtitle: '50 songs • 2+ hours',
           imageUrl: 'https://www.gstatic.com/music/listening_review/WINTER_4_544x544.png',
@@ -261,7 +273,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: 'EA SPORTS FC 25 Soundtrack',
           subtitle: '114 tracks • 5+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/oVr3A3aXGWf9fdzPCvViOVrExHm-OcQA408vrjRyLH5UB4d9rbQmLut7kSbBOgf55IjLTZdwVzvR=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/HYOeOSUbAVoB389Xy2ypcv0dna_1fYzFyqg5pAigvGNMym--li2FO6WfrWdtefwcZaTVTh3icys=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQICbSuj7LOk28-6iAzI4cRJ'
         },
         {
@@ -367,7 +379,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: 'Español',
           subtitle: '49 tracks • 2+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/5iTex7mpDJARRISAnVZSi_D4CipOqGYb8R158sKHXe-j2YVhk8y_KXSuTDIfFWDhTPbEDmXcGw=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/5HoqWPgTvSCurcmDideUYO2VfsK2MtRNRcylW_izzSXdycav_dJdyY0Fpu5OxdU95PflUCsmsm0=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQI3XA-AED1t56Z4zzBnrRk7'
         },
         {
