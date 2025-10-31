@@ -390,8 +390,8 @@ const FeaturedMusic: React.FC = () => {
         },
         {
           title: '中國',
-          subtitle: '24 tracks • 1+ hour',
-          imageUrl: 'https://yt3.googleusercontent.com/JJ1VKh7otOqbUUHcg2BV6QsfZRt-V1eqef0lm1Zgxk1HvoTt8RTASVjdS9pMlJcLKSo0wBuaLw=s1200',
+          subtitle: '63 tracks • 4+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/xwI5o9tIJpcspOqPgIJm5qyjGRD0jHrvpyEt2OckgB9QICUm3Ne1-i0PbQTyXIZyk4ZoXryp9CA=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQJZATmoNyHhrJurvZJqglsU'
         },
         {
