@@ -31,39 +31,39 @@ const FeaturedMusic: React.FC = () => {
       items: [
         {
           title: 'Rock 🤘🏽',
-          subtitle: '567 tracks • 5+ hours',
+          subtitle: '679 tracks • 5+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/BAb5BOhFgYV9XoxyG0FUwDWDtMIO0tRiLSfUCDIn5c6swIn7I3Ikol32n3lQy5RXIz55rIeloj0a=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKYNc2nDhshhLGgBNdOycRj'
         },
         {
           title: '케이팝',
-          subtitle: '312 tracks • 5+ hours',
+          subtitle: '333 tracks • 5+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/Zvb4jS3XB9bpvX0hGXGFMTjx0Ast7yrg0kCqY2syCDmNNb3JLAEQnEhvL9skK2HmMkL2QVxdi_o=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQL6zBmJuBPd8FHpWs0re3Ch'
         },
         {
           title: '日本語',
-          subtitle: '281 tracks • 6+ hours',
+          subtitle: '321 tracks • 6+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/feuA5np64cHvIhXTPY8GbTCLItzhVZtN6fL43UrNyZAd-Qz21IWnaJkcMc7YYrCCJEDQFZl5rA=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQI4hkHqi744zg0cxlP94xgR'
         },
         { title: 'English',
-          subtitle: '360 tracks • 5+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/zy9PUIyAd0TA0HUA1GNWjsGr9--m534Nm-VFuHA5vG_Zhnv3WoOdluFyl0qz3ze3QHsf8TOlzQ=s1200',
+          subtitle: '388 tracks • 5+ hours',
+          imageUrl: 'https://yt3.googleusercontent.com/m8g1ve3fDeCYX0HekGvPTKZ5hzN6wUOA1hZeBnkXDkvfGyCFkGkoLH8OVaJZTdAeuAElUicn0V0=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIoKWP1gSeSjmbY3rXt4M09'
         },
         { title: 'Português',
-          subtitle: '339 tracks • 4+ hours',
+          subtitle: '364 tracks • 4+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/sOD5vbuvX-N36z8qb6cWll9zKT1MfcWAs-Nzv7WHRHze4ZGpEk5ctRMZq5885_QrddSoe4K5hPQR=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIenChNiaS6Wn6plI9-BH1M'
         },
         { title: 'Old Ones 🧓🏽',
-          subtitle: '153 tracks • 6+ hours',
+          subtitle: '162 tracks • 6+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/duL8aDbMX8THCiRtJH_iS5_vbwRVmsMNjwpOEp3O6l3QFy5pYPhGpkwpeTJsm-YncCwDqnAuy_8=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKmRV6Qx2a0Ci8gn0tA3OHh'
         },
         { title: 'Eletronic 🔥',
-          subtitle: '175 tracks • 5+ hours',
+          subtitle: '187 tracks • 5+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/-1c-Fqu15fxwR9fGu5Ij_ah6vrYDnnSzc5weqck-HLX9FeLsfsdSLV5zlU0tAnjyxDU8jp0iQs5n=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKl9pyizXncoMIxmc2z6R-P'
         },
