@@ -31,14 +31,14 @@ const FeaturedMusic: React.FC = () => {
       items: [
         {
           title: 'Rock 🤘🏽',
-          subtitle: '679 tracks • 5+ hours',
+          subtitle: '684 tracks • 5+ hours',
           imageUrl: 'https://yt3.googleusercontent.com/BAb5BOhFgYV9XoxyG0FUwDWDtMIO0tRiLSfUCDIn5c6swIn7I3Ikol32n3lQy5RXIz55rIeloj0a=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKYNc2nDhshhLGgBNdOycRj'
         },
         {
           title: '케이팝',
           subtitle: '333 tracks • 5+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/Zvb4jS3XB9bpvX0hGXGFMTjx0Ast7yrg0kCqY2syCDmNNb3JLAEQnEhvL9skK2HmMkL2QVxdi_o=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/BZjsmh2DxMqqls-wYPkH3sw7Lt9xkx42S9CIizBOJxic7RrBXb3892uqGml598HBFORxIJeWNQwM=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQL6zBmJuBPd8FHpWs0re3Ch'
         },
         {
