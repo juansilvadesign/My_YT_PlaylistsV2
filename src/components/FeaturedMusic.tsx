@@ -38,7 +38,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: '케이팝',
           subtitle: '333 tracks • 5+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/BZjsmh2DxMqqls-wYPkH3sw7Lt9xkx42S9CIizBOJxic7RrBXb3892uqGml598HBFORxIJeWNQwM=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/s4Z8EUSX6QKsBtP43Ly0fdlQlri-kcyNn-CuYP7v1pL4NzaWujGrA01V63sdaHSsIcwZccnsBh4=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQL6zBmJuBPd8FHpWs0re3Ch'
         },
         {
@@ -95,7 +95,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: 'Fast and Furious',
           subtitle: '42 tracks • 2+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/gU_BKaNfO0pU04YTQYPfFMY3K5Pq3-JyVbKe4Nvz1CfqB15q5aHHUnK16PwTi4BU40rGnHRAVg=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/DNCce9xLmDTEb8C2Dr_7i9bEYZ4sGXvqRSr3jrRH2On7L0ztLnEwVjsEj3S2QJRVYso7C7AWuohO=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIq-Bh0sWxvFwq-kuFVDauS'
         },
         {
@@ -107,7 +107,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: 'AESPA',
           subtitle: '48 tracks • 2+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/nZTvbvy5-8RoCGv1q2za_Haj8WEzXvesfaUXHN5FuNqfcJAzBRUm0e54O3Fe0xCiJp095ukr7tvS=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/TgGvL2q6PJGEQWYyKpftGdQdj0hXYanB3cBr_N53cj6Hpd-qdoEZuVf8JWUTv52x6cmRtn1Cyg=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKsfENWPoux9BtdD07_X2LG'
         },
         {
@@ -172,6 +172,18 @@ const FeaturedMusic: React.FC = () => {
       subtitle: 'Back in time',
       title: 'Recaps',
       items: [
+        {
+          title: "2025 Recap",
+          subtitle: '100 songs • 5+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/YEARLY_REVIEW_2025_V2_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRYRn7N6THE6j9MiTjW_l5nhD9UarTY5CMu8J'
+        },
+        {
+          title: "September-November Recap '25",
+          subtitle: '50 songs • 3+ hours',
+          imageUrl: 'https://www.gstatic.com/music/listening_review/FALL_4_544x544.png',
+          link: 'https://music.youtube.com/playlist?list=LRSRPupYGL-2owkJPgDAzcN97aHXCVk6gq3eD'
+        },
         {
           title: "June-August Recap '25",
           subtitle: '50 songs • 3+ hours',
@@ -267,7 +279,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: 'EA SPORTS FC Ultimate Soundtrack',
           subtitle: '100 tracks • 6+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/D9cE8UNE-33A0UlEt3ht0159COCKdL_jVLLpl0AgpeGmVL8QYKkog8gktURHSFl-68svHJeWvw=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/l49yrhKk0_OtvcXOqH4_j3azoA3vgqvlhSgE_n4Amfjbm937ss7UqDk6ROEXDD5Nk25Yr9QtQg=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQIUsetAx0xJar8jiUdvDjJP'
         },
         {
@@ -347,7 +359,7 @@ const FeaturedMusic: React.FC = () => {
         {
           title: 'NFS Heat',
           subtitle: 'n tracks • x+ hours',
-          imageUrl: 'https://yt3.googleusercontent.com/tGJfS1nM9s67LDYpIbRgZwuxxSEHnErgobYPAClYu9fmOSJuwSv7DpHY00LPhI-hIrcROUw09sc=s1200',
+          imageUrl: 'https://yt3.googleusercontent.com/nBI35hOY1lPvjgpS0P_ZcFTd2s7SUXmXfytP5A_a9m06WxrVLUHjgtdjV7A22ojbYd0nKb00QA=s1200',
           link: 'https://music.youtube.com/playlist?list=PLoVlwuf7VgQKsTi3n7k0j_wq7lnscWYH8'
         },
         {
